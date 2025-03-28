@@ -1,6 +1,6 @@
-# Zen Mod: Better Ctrl+Tab Panel
+# Zen Mod: Better CtrlTab Panel
 
-Re-style and add customization options for the Ctrl+Tab panel.
+Re-style and add customization options for the CtrlTab panel.
 
 ![screenshot](./better-ctrltab-panel.png)
 

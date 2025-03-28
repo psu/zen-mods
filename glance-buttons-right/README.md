@@ -1,4 +1,4 @@
-# Zen Mod: Glance buttons to the right
+# Zen Mod: Right Side Glance Buttons
 
 Move the at a glance buttons to the right side of the window.
 
