@@ -1,0 +1,11 @@
+/**
+* Zen Mod: Tab rename fix
+* Better visibility of tab renaming by inverting the selected text colors.
+* Pontus Sundén <hi@pontus.cc>
+*/
+@-moz-document url-prefix("chrome:") {
+  #tab-label-input::selection {
+    background: var(--input-color) !important;
+    color: var(--input-bgcolor) !important;
+  }
+}
