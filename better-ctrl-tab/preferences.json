@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Panel - Width",
+    "defaultValue": "75vw",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.width",
+    "type": "string"
+  },
+  {
+    "label": "Panel - Background",
+    "defaultValue": "light-dark(rgba(144, 144, 144, 0.94), rgba(22, 22, 22, 0.92))",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.",
+    "type": "string"
+  },
+  {
+    "label": "Panel - Shadow Size",
+    "defaultValue": "18px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.shadow_size",
+    "type": "string"
+  },
+  {
+    "label": "General - Corners Roundness",
+    "defaultValue": "32px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.roundness",
+    "type": "string"
+  },
+  {
+    "label": "General - Padding",
+    "defaultValue": "16px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.padding",
+    "type": "string"
+  },
+  {
+    "label": "Preview - Border Width",
+    "defaultValue": "1px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_border_width",
+    "type": "string"
+  },
+  {
+    "label": "Preview - Border Color",
+    "defaultValue": "light-dark(rgba(255, 255, 255, 0.1), rgba(1, 1, 1, 0.1))",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_border_color",
+    "type": "string"
+  },
+  {
+    "label": "Focused Preview - Background",
+    "defaultValue": "light-dark(rgba(77, 77, 77, 0.8), rgba(204, 204, 204, 0.33))",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_focus_background",
+    "type": "string"
+  },
+  {
+    "label": "Focused Preview - Border Color",
+    "defaultValue": "light-dark(rgba(255, 255, 255, 0.1), rgba(1, 1, 1, 0.1))",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_focus_border_color",
+    "type": "string"
+  },
+  {
+    "label": "Preview - Favicon Size",
+    "defaultValue": "18px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_favicon_size",
+    "type": "string"
+  },
+  {
+    "label": "Preview - Label Font Size",
+    "defaultValue": "13px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_font_size",
+    "type": "string"
+  },
+  {
+    "label": "Preview - Label Letter Spacing",
+    "defaultValue": "0px",
+    "placeholder": "",
+    "property": "psu.better_ctrltab.preview_letter_spacing",
+    "type": "string"
+  }
+]
