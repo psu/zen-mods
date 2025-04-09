@@ -42,6 +42,6 @@ Re-style and add customization options for the Workspace Buttons.
 <br>
 
 ---
-2025 [hi@pontus.cc](mailto:hi@pontus.cc)
+Pontus Sundén, 2025 - [hi@pontus.cc](mailto:hi@pontus.cc)
 
 
