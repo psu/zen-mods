@@ -30,5 +30,14 @@ Increase size of tab titles and add make pending tabs standing out more.
 
 ![screenshot](./tab-title-fix/tab-title-fix.png)
 
+<br>
+
+## Better Workspace Buttons
+
+Re-style and add customization options for the Workspace Buttons.
+
+![screenshot](./better-workspace-buttons/better-workspace-buttons.png)
+
+
 
 
