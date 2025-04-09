@@ -1,6 +1,7 @@
 # Zen Browser Mods
-My collection of mods for the Zen Browser. Install them from the [official Zeb Mods page](https://zen-browser.app/mods).
- 
+My collection of mods for the Zen Browser. Install from the [official Zen Mods page](https://zen-browser.app/mods).
+Comments and suggestions are welcome. 
+
 <br>
 
 ## Better CtrlTab Panel
@@ -38,6 +39,9 @@ Re-style and add customization options for the Workspace Buttons.
 
 ![screenshot](./better-workspace-buttons/better-workspace-buttons.png)
 
+<br>
 
+---
+2025 [hi@pontus.cc](mailto:hi@pontus.cc)
 
 
