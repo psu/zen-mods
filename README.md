@@ -9,6 +9,8 @@ Re-style and add customization options for the CtrlTab panel.
 
 [⤓ Install](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
 
+The built-in setting [x] "Ctrl+Tab cycles though tabs..." in _Settings -> General -> Tabs_.
+
 [![screenshot](./better-ctrl-tab/better-ctrltab-panel.png)](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
 
 <br>
