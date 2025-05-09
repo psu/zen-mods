@@ -25,9 +25,9 @@
   }
 
   #ctrlTab-panel {
-    position: absolute !important;
-    margin-left: calc(calc(calc(100vw - var(--psu-better_ctrltab-width)) * 0.5) - calc(var(--psu-better_ctrltab-shadow_size) * 0.5)) !important;
-    width: calc(var(--psu-better_ctrltab-width) + 2px) !important;
+    /* position: absolute !important; */
+    /* margin-left: calc(calc(calc(100vw - var(--psu-better_ctrltab-width)) * 0.5) - calc(var(--psu-better_ctrltab-shadow_size) * 0.5)) !important; */
+    /* width: calc(var(--psu-better_ctrltab-width) + 2px) !important; */
     --panel-background: var(--psu-better_ctrltab-background) !important;
     --panel-border-radius: calc(var(--psu-better_ctrltab-roundness) * 1) !important;
     --panel-shadow: calc(var(--psu-better_ctrltab-shadow_size) * 0.1) calc(var(--psu-better_ctrltab-shadow_size) * 0.1) var(--psu-better_ctrltab-shadow_size)
