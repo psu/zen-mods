@@ -1,15 +1,18 @@
 # Zen Browser Mods
-My collection of mods for the Zen Browser. Install from the [official Zen Mods page](https://zen-browser.app/mods).
-Comments and suggestions are welcome. 
+
+My collection of mods for the Zen Browser. Install from the [official Zen Mods page](https://zen-browser.app/mods).  
+Comments and suggestions are welcome.
 
 <br>
 
 ## Better CtrlTab Panel
+
 Re-style and add customization options for the CtrlTab panel.
 
 [⤓ Install](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
 
-NB. Turn on the setting "Ctrl+Tab cycles though tabs..." in _Settings -> General -> Tabs_.
+NB. Requires active setting "Ctrl+Tab cycles though tabs..." in _Settings -> General -> Tabs_.  
+Use the preference "Zoom" to adjust panel size and avoid clipping.
 
 [![screenshot](./better-ctrl-tab/better-ctrltab-panel.png)](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
 
@@ -44,6 +47,5 @@ Re-style and add customization options for the Workspace Buttons.
 <br>
 
 ---
+
 Pontus Sundén, 2025 - [hi@pontus.cc](mailto:hi@pontus.cc)
-
-
