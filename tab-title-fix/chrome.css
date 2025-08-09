@@ -11,6 +11,9 @@
     /**/
   }
   #tabbrowser-tabs {
+    .tab-group-label {
+      font-size: var(--psu-tab_title_fixes-font_size) !important;
+    }
     .tabbrowser-tab {
       #tab-label-input,
       .tab-label {
