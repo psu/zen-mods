@@ -1,12 +1,5 @@
 [
   {
-    "label": "General - Padding",
-    "defaultValue": "16px",
-    "placeholder": "20px",
-    "property": "psu.better_ctrltab.padding",
-    "type": "string"
-  },
-  {
     "label": "General - Corners Roundness",
     "defaultValue": "28px",
     "placeholder": "5px",
@@ -18,6 +11,13 @@
     "defaultValue": "0.8",
     "placeholder": "1.0",
     "property": "psu.better_ctrltab.zoom",
+    "type": "string"
+  },
+  {
+    "label": "Panel - Padding",
+    "defaultValue": "16px",
+    "placeholder": "20px",
+    "property": "psu.better_ctrltab.padding",
     "type": "string"
   },
   {
@@ -35,12 +35,26 @@
     "type": "string"
   },
   {
+    "label": "Panel - Border Color",
+    "defaultValue": "transparent",
+    "placeholder": "light-dark(white, black)",
+    "property": "psu.better_ctrltab.panel_border_color",
+    "type": "string"
+  },
+  {
     "label": "Focused Item - Background",
     "defaultValue": "light-dark(rgba(77, 77, 77, 0.8), rgba(204, 204, 204, 0.33))",
     "placeholder": "light-dark(rgba(77,77,77,0.8), rgba(1,1,1,0.6))",
     "property": "psu.better_ctrltab.preview_focus_background",
     "type": "string"
   },
+  {
+    "label": "Item - Padding",
+    "defaultValue": "30px",
+    "placeholder": "10px",
+    "property": "psu.better_ctrltab.preview_padding",
+    "type": "string"
+  },  
   {
     "label": "Item - Border Color",
     "defaultValue": "light-dark(rgba(255, 255, 255, 0.1), rgba(1, 1, 1, 0.1))",
@@ -56,31 +70,73 @@
     "type": "string"
   },
   {
-    "label": "Item - Label Font Size",
+    "label": "Item Label - Text Color",
+    "defaultValue": "inherit",
+    "placeholder": "light-dark(black, white)",
+    "property": "psu.better_ctrltab.preview_text_color",
+    "type": "string"
+  },  
+  {
+    "label": "Item Label - Font Size",
     "defaultValue": "13px",
     "placeholder": "11px",
     "property": "psu.better_ctrltab.preview_font_size",
     "type": "string"
   },
   {
-    "label": "Item - Label Letter Spacing",
+    "label": "Item Label - Font Family",
+    "defaultValue": "inherit",
+    "placeholder": "Comic Sans",
+    "property": "psu.better_ctrltab.preview_font_family",
+    "type": "string"
+  },
+  {
+    "label": "Item Label - Font Weight",
+    "defaultValue": "inherit",
+    "placeholder": "bold",
+    "property": "psu.better_ctrltab.preview_font_weight",
+    "type": "string"
+  },
+  {
+    "label": "Item Label - Overflow (0.7 = Label use 70% of padding)",
+    "defaultValue": "0.7",
+    "placeholder": "0.5",
+    "property": "psu.better_ctrltab.preview_label_overflow",
+    "type": "string"
+  },  
+  {
+    "label": "Item Label - Letter Spacing",
     "defaultValue": "0px",
     "placeholder": "0px",
     "property": "psu.better_ctrltab.preview_letter_spacing",
     "type": "string"
   },
   {
-    "label": "Item - Favicon Size",
+    "label": "Item Favicon - Size",
     "defaultValue": "36px",
     "placeholder": "40px",
     "property": "psu.better_ctrltab.preview_favicon_size",
     "type": "string"
   },
   {
-    "label": "Item - Favicon Outdent",
+    "label": "Item Favicon - Outdent",
     "defaultValue": "12px",
     "placeholder": "6px",
     "property": "psu.better_ctrltab.preview_favicon_outdent",
+    "type": "string"
+  },
+  {
+    "label": "Item Favicon - Background",
+    "defaultValue": "transparent",
+    "placeholder": "light-dark(white, black)",
+    "property": "psu.better_ctrltab.preview_favicon_background",
+    "type": "string"
+  },
+  {
+    "label": "Item Favicon - Padding",
+    "defaultValue": "2px",
+    "placeholder": "0px",
+    "property": "psu.better_ctrltab.preview_favicon_padding",
     "type": "string"
   }
 ]
