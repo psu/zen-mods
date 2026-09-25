@@ -51,9 +51,12 @@
   #ctrlTab-panel {
     /* reset */
     --panel-background: none !important;
+    --panel-background-color: transparent !important;
     --panel-shadow: none !important;
+    --panel-box-shadow: none !important;
     --panel-border-color: none !important;
     --panel-shadow-margin: 0 !important;
+    --panel-box-shadow-margin: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
     background-color: unset !important;
@@ -173,5 +176,11 @@
         }
       }
     }
+  }
+
+  #ctrlTab-panel::part(content) {
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
   }
 }
