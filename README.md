@@ -1,6 +1,6 @@
 # Zen Browser Mods
 
-Some mods for the Zen Browser. Install them with [Sine](). Paste the URL for the relevant folder, for example `psu/zen-mods/tree/main/better-ctrl-tab`. 
+Some mods for the Zen Browser. Install them with [Sine](https://github.com/CosmoCreeper/Sine#%EF%B8%8F-installation). Paste the URL for the relevant folder, for example `psu/zen-mods/tree/main/better-ctrl-tab`. 
 
 <br>
 
