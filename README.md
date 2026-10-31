@@ -1,7 +1,6 @@
 # Zen Browser Mods
 
-My collection of mods for the Zen Browser. Install from the [official Zen Mods page](https://zen-browser.app/mods).  
-Comments and suggestions are welcome.
+Some mods for the Zen Browser. Install them with [Sine](). Paste the URL for the relevant folder, for example `psu/zen-mods/tree/main/better-ctrl-tab`. 
 
 <br>
 
@@ -9,18 +8,19 @@ Comments and suggestions are welcome.
 
 Re-style and add customization options for the CtrlTab panel.
 
-[⤓ Install](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
+The CtrlTab panel **is off by default**. This mod requires you to first enable it in Zen's settings. 
 
-NB. Requires active setting "Ctrl+Tab cycles though tabs..." in _Settings -> General -> Tabs_.  
+⤓ Install with `psu/zen-mods/tree/main/better-ctrl-tab`
+
 Use the preference "Zoom" to adjust panel size and avoid clipping.
 
-[![screenshot](./better-ctrl-tab/better-ctrltab-panel.png)](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/)
+![screenshot](./better-ctrl-tab/better-ctrltab-panel.png)]
 
 <br>
 
 ## Right Side Glance Buttons
 
-Move the at a glance buttons to the right side of the window.
+Move the _at a glance_ buttons to the right side of the window.
 
 [⤓ Install](https://zen-browser.app/mods/20e8cc78-3dac-4db0-81a4-814672fb50af/)
 
