@@ -16,7 +16,7 @@
     --psu-better_ctrltab-panel_border_width: 0px; 
 
     --psu-better_ctrltab-panel_maxwidth: 2000px; 
-    --psu-better_ctrltab-panel_vertical_position: -50px; 
+    --psu-better_ctrltab-vertical_position: -50px; 
     
     --psu-better_ctrltab-preview_focus_background: light-dark(rgba(77, 76, 78, 0.8), rgba(184, 185, 183, 0.3)); 
 
@@ -54,12 +54,13 @@
     --panel-shadow: none !important;
     --panel-border-color: none !important;
     --panel-shadow-margin: 0 !important;
+    --panel-background-color: transparent !important;
     margin: 0 !important;
     padding: 0 !important;
     background-color: unset !important;
 
     /* panel */
-    margin-top: var(--psu-better_ctrltab-panel_vertical_position) !important;
+    margin-top: var(--psu-better_ctrltab-vertical_position) !important;
     --panel-color: var(--psu-better_ctrltab-preview_text_color) !important;
     --panel-border-radius: var(--psu-better_ctrltab-roundness) !important;
     --panel-padding: calc(var(--psu-bct-panel-margin) * 1.5) var(--psu-bct-panel-margin) !important;
@@ -89,7 +90,7 @@
     }
 
     /* reverese engineer important measurements */
-    --psu-bct-panel-width: min(var(--psu-tile-counter) * 311.25px, var(--psu-better_ctrltab-panel_maxwidth));
+    --psu-bct-panel-width: min(var(--psu-tile-counter) * 233.75px, var(--psu-better_ctrltab-panel_maxwidth));
     --psu-bct-preview-width: calc(
       ((var(--psu-bct-panel-width) - var(--psu-bct-panel-margin) * 2 - var(--psu-bct-horizontal-padding) * 2 - var(--psu-better_ctrltab-panel_border_width) * 2) / var(--psu-tile-counter)) -
         var(--psu-better_ctrltab-preview_padding) * 2 - var(--psu-better_ctrltab-preview_border_width) * 2
