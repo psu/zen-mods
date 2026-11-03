@@ -16,7 +16,7 @@
     --psu-better_ctrltab-panel_border_width: 0px; 
 
     --psu-better_ctrltab-panel_maxwidth: 2000px; 
-    --psu-better_ctrltab-panel_vertical_position: -50px; 
+    --psu-better_ctrltab-vertical_position: -50px; 
     
     --psu-better_ctrltab-preview_focus_background: light-dark(rgba(77, 76, 78, 0.8), rgba(184, 185, 183, 0.3)); 
 
@@ -49,58 +49,25 @@
   }
 
   #ctrlTab-panel {
-    /* reset */
-    --panel-background: none !important;
-    --panel-shadow: none !important;
-    --panel-border-color: none !important;
-    --panel-shadow-margin: 0 !important;
+    /* reset: Firefox 14x renamed the panel variables (--panel-background -> --panel-background-color, etc.) */
+    --panel-background-color: transparent !important;
+    --panel-box-shadow: none !important;
+    --panel-border-color: transparent !important;
+    --panel-box-shadow-margin: 0px !important;
     margin: 0 !important;
     padding: 0 !important;
     background-color: unset !important;
 
     /* panel */
-    margin-top: var(--psu-better_ctrltab-panel_vertical_position) !important;
-    --panel-color: var(--psu-better_ctrltab-preview_text_color) !important;
+    margin-top: var(--psu-better_ctrltab-vertical_position) !important;
+    --panel-text-color: var(--psu-better_ctrltab-preview_text_color, white) !important;
     --panel-border-radius: var(--psu-better_ctrltab-roundness) !important;
     --panel-padding: calc(var(--psu-bct-panel-margin) * 1.5) var(--psu-bct-panel-margin) !important;
 
-    /* conunt items */
-    --psu-tile-counter: 0;
-    &:has(.ctrlTab-preview:nth-child(1):not([hidden])) {
-      --psu-tile-counter: 1;
-    }
-    &:has(.ctrlTab-preview:nth-child(2):not([hidden])) {
-      --psu-tile-counter: 2;
-    }
-    &:has(.ctrlTab-preview:nth-child(3):not([hidden])) {
-      --psu-tile-counter: 3;
-    }
-    &:has(.ctrlTab-preview:nth-child(4):not([hidden])) {
-      --psu-tile-counter: 4;
-    }
-    &:has(.ctrlTab-preview:nth-child(5):not([hidden])) {
-      --psu-tile-counter: 5;
-    }
-    &:has(.ctrlTab-preview:nth-child(6):not([hidden])) {
-      --psu-tile-counter: 6;
-    }
-    &:has(.ctrlTab-preview:nth-child(7):not([hidden])) {
-      --psu-tile-counter: 7;
-    }
-
-    /* reverese engineer important measurements */
-    --psu-bct-panel-width: min(var(--psu-tile-counter) * 311.25px, var(--psu-better_ctrltab-panel_maxwidth));
-    --psu-bct-preview-width: calc(
-      ((var(--psu-bct-panel-width) - var(--psu-bct-panel-margin) * 2 - var(--psu-bct-horizontal-padding) * 2 - var(--psu-better_ctrltab-panel_border_width) * 2) / var(--psu-tile-counter)) -
-        var(--psu-better_ctrltab-preview_padding) * 2 - var(--psu-better_ctrltab-preview_border_width) * 2
-    );
-    --psu-bct-preview-height: calc(var(--psu-bct-preview-width) / var(--psu-bct-canvas-aspect-ratio));
-    --psu-bct-panel-height: calc(
-      var(--psu-bct-preview-height) + var(--psu-better_ctrltab-panel_border_width) * 2 + var(--psu-better_ctrltab-padding) * 2 + var(--psu-better_ctrltab-preview_padding) * 2 +
-        var(--psu-better_ctrltab-preview_border_width) * 2 + var(--psu-better_ctrltab-preview_font_size)
-    );
-
+    /* Zen sets the panel width from the screen width and lays the previews out in a grid,
+       so the previews simply fill their grid cell instead of using a fixed tile width. */
     #ctrlTab-previews {
+      max-width: var(--psu-better_ctrltab-panel_maxwidth);
       margin: 0 auto !important;
       padding: var(--psu-better_ctrltab-padding) var(--psu-bct-horizontal-padding) !important;
       background: var(--psu-better_ctrltab-background) !important;
@@ -132,8 +99,8 @@
         img,
         canvas {
           border-radius: var(--psu-bct-canvas-roundness) !important;
-          height: var(--psu-bct-preview-height) !important;
-          width: var(--psu-bct-preview-width) !important;
+          height: auto !important;
+          width: 100% !important;
         }
 
         /* label styling */
@@ -152,6 +119,7 @@
             height: var(--psu-bct-favicon-size) !important;
             width: var(--psu-bct-favicon-size) !important;
             box-shadow: none !important;
+            border: none !important;
             background: var(--psu-better_ctrltab-preview_favicon_background) !important;
             position: absolute !important;
             padding: var(--psu-better_ctrltab-preview_favicon_padding) !important;
